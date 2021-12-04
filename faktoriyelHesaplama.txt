@@ -1,0 +1,13 @@
+public class faktoriyelHesaplama {
+  
+    public static void main(String[] args) {
+        int num = 5;
+        long faktoriyel = 1;
+		
+        for(int i = 1; i <= num; ++i)
+        {
+            faktoriyel *= i;
+        }
+        System.out.printf("%d Sayisinin Faktoriyeli = %d", num, faktoriyel);
+    } 
+}
